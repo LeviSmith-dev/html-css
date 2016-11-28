@@ -1,0 +1,60 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #ab3939;
+	background: url('../images/Pintail.jpg')no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size: cover;
+}
+
+
+#heading {
+	padding:42px;
+	background: #eBeBeB;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#page-title {
+
+}
+
+.content {
+	font-size: 0.8em;
+	color: #767676;
+	background-color: #eBeBeB;
+	padding:20px;
+	border-left:10px solid #ab3939;
+}
+
+#sub {
+	background-color: #eBeBeB;
+	padding:5px 5px 5px 42px;
+	margin-top: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width:40%;
+
+}
+
+.highlight {
+	background-color: yellow;
+	font-weight: 600;
+	font-style: italic;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	text-decoration: underline line-through overline;
+	text-shadow: 0 0 1px #b02626;
+
+}
+
+.package {
+	background-color: #eBeBeB;
+}
+
