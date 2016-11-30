@@ -1,7 +1,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	color: #ab3939;
-	background: url('../images/Pintail.jpg')no-repeat center center fixed;
+	background: url('../images/teslas.jpg')no-repeat center center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size: cover;
@@ -10,7 +10,7 @@ body {
 
 #heading {
 	padding:42px;
-	background: #eBeBeB;
+	background: rgba(235, 235, 235, .8);
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -27,13 +27,13 @@ h1 {
 .content {
 	font-size: 0.8em;
 	color: #767676;
-	background-color: #eBeBeB;
+	background-color: rgba(235,235,235, .8);
 	padding:20px;
 	border-left:10px solid #ab3939;
 }
 
 #sub {
-	background-color: #eBeBeB;
+	background-color: rgba(235, 235, 235, .8);
 	padding:5px 5px 5px 42px;
 	margin-top: 10px;
 	-webkit-border-radius: 3px;
@@ -47,14 +47,73 @@ h1 {
 	background-color: yellow;
 	font-weight: 600;
 	font-style: italic;
-	font-variant: small-caps;
-	text-transform: uppercase;
-	text-decoration: underline line-through overline;
-	text-shadow: 0 0 1px #b02626;
-
 }
 
 .package {
-	background-color: #eBeBeB;
+	-webkit-transition: all 500ms ease-out 500ms;
+	-moz-transition: all 500ms ease-out 500ms;
+	-o-transition: all 500ms ease-out 500ms;
+	transition: all 500ms ease-out 500ms;
+	background-color: #e8e8e8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin:40px;
+	padding:20px;
+	font-size: 1.2em;
+	border-bottom: 10px solid green;
+	width:200px;
 }
+
+.package:hover {
+	background-color: #d4d4d4;
+	/*color: white;*/
+	cursor: pointer;
+}
+
+#pricing-table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/*pseduo class selector*/
+
+a:link {
+	color:black;
+}
+
+a:visited {
+	color:green;
+}
+
+a:hover {
+	color:#ab3939;
+}
+
+a:active {
+	color:blue;
+}
+/*end pseduo class selector*/
+
+.content-bullets {
+	padding-left: 40px;
+	font-size: 1.5em;
+	list-style:square;
+}
+
+#blocks {
+	position:absolute;
+}
+
+.block {
+	height:140px;
+	width:250px;
+	background-color:#ab3939;
+	margin:20px;
+	float:left;
+}
+
+
 
